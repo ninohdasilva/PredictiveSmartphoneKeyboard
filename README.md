@@ -1,4 +1,4 @@
-# Predictive Smartphone Keyboard for French
+# Replication of a Predictive Smartphone Keyboard for French
 
 <img alt="Java" src="https://img.shields.io/badge/Java-%23ED8B00.svg?&style=flat-square&logo=java&logoColor=white"/><img alt="JavaFX" src="https://img.shields.io/badge/JavaFX-50EAFF.svg?&style=flat-square&logo=java&logoColor=black"/>
 
