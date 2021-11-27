@@ -18,7 +18,7 @@ The Trie and n-grams are updated with the content in the text area every time th
 
 After cloning or donwloading the repository:
 
-1) If you are not running Java 8 or a more recent version of Java with JavaFX support, extract the `jre.tar.xz` archive in the main repository.
+1) If you are not running Java 8 or a more recent version of Java with JavaFX support, extract the `jre.tar.xz` archive in the main folder.
 
 2) Run the following command:
 ```
