@@ -18,11 +18,11 @@ The Trie and n-grams are updated with the content in the text area every time th
 
 After cloning or donwloading the repository:
 
-1) If you are not running Java 8 or a more recent version of Java with JavaFX support, extract the `jre.tar.xz` archive in the main folder.
+1) If you are not running Java 8 or a more recent version of Java with JavaFX support, extract the `fx_sdk_and_jdk_16.tar.xz` archive in the main folder.
 
 2) Run the following command:
 ```
-jre/bin/java -jar Smartphone.jar
+openjdk-16+36_linux-x64_bin/jdk-16/bin/java -jar --module-path javafx-sdk-16/lib --add-modules=javafx.controls,javafx.fxml Smartphone.jar
 ```
 or 
 
@@ -30,12 +30,3 @@ or
 java -jar Smartphone.jar
 ```
 if you have a Java version with JavaFX support
-
----
-**NOTES**
-
-The `jre.tar.xz` archive includes the Runtime Environment for Java 8, in order for JavaFX to run, as this package stopped to be included in JDKs and JREs after version 9.
-There are other solutions for running this package but this is the one we went for at the time of the project. We might came up with a better solution.
-We do not take credit for any licensed software in this archive.
-
----
