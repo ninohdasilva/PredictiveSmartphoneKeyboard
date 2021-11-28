@@ -24,9 +24,9 @@ After cloning or donwloading the repository:
 ```
 openjdk-16+36_linux-x64_bin/jdk-16/bin/java -jar --module-path javafx-sdk-16/lib --add-modules=javafx.controls,javafx.fxml Smartphone.jar
 ```
-or 
+or, if you have a Java version with JavaFX support:
 
 ```
 java -jar Smartphone.jar
 ```
-if you have a Java version with JavaFX support
+
